@@ -11,3 +11,8 @@ main {
 h1 {
     color: #FFFFFF;
 }
+
+img {
+    border-radius: 20px;
+    margin: 20px 0 20px 0;
+}
