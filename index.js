@@ -36,7 +36,7 @@ ScrollReveal().reveal('.image3', {
     distance: '300px',
     origin: 'left',
     rotate: {
-        x: 0,
+        x: 180,
         y: 90,
         z: 0,
     },
@@ -56,7 +56,7 @@ ScrollReveal().reveal('.image4', {
     rotate: {
         x: 0,
         y: 0,
-        z: 90,
+        z: -180,
     },
 });
 
@@ -73,7 +73,7 @@ ScrollReveal().reveal('.image5', {
     origin: 'right',
     rotate: {
         x: 0,
-        y: 0,
+        y: 90,
         z: -180,
     },
 });
