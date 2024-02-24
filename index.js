@@ -1,35 +1,80 @@
-// Add JavaScript below
+window. onload = function() {
 ScrollReveal().reveal('.image1', {
+    /* Locked Settings */
     delay: 500,
-    distance: '500px',
-    opacity: 0.01,
-    easing: 'ease-in-out',
+    opacity: 0,
+    reset: true,
 });
 
 ScrollReveal().reveal('.image2', {
-    delay: 750,
-    distance: '1000px',
-    opacity: 0.01,
-    easing: 'ease-in-out',
+    /* Locked Settings */
+    delay: 500,
+    opacity: 0,
+    scale: 2,
+    reset: true,
+
+    /* Unique Settings */
+    easing: 'ease-out',
+    distance: '150px',
+    origin: 'bottom',
+    rotate: {
+        x: 90,
+        y: 0,
+        z: 0,
+    },
 });
 
 ScrollReveal().reveal('.image3', {
-    delay: 1000,
-    distance: '1500px',
-    opacity: 0.01,
-    easing: 'ease-in-out',
+    /* Locked Settings */
+    delay: 500,
+    opacity: 0,
+    scale: 2,
+    reset: true,
+
+    /* Unique Settings */
+    easing: 'ease-in',
+    distance: '300px',
+    origin: 'left',
+    rotate: {
+        x: 0,
+        y: 90,
+        z: 0,
+    },
 });
 
 ScrollReveal().reveal('.image4', {
-    delay: 1250,
-    distance: '2000px',
-    opacity: 0.01,
+    /* Locked Settings */
+    delay: 500,
+    opacity: 0,
+    scale: 2,
+    reset: true,
+
+    /* Unique Settings */
     easing: 'ease-in-out',
+    distance: '150px',
+    origin: 'bottom',
+    rotate: {
+        x: 0,
+        y: 0,
+        z: 90,
+    },
 });
 
 ScrollReveal().reveal('.image5', {
-    delay: 1500,
-    distance: '2500px',
-    opacity: 0.01,
-    easing: 'ease-in-out',
+    /* Locked Settings */
+    delay: 500,
+    opacity: 0,
+    scale: 2,
+    reset: true,
+
+    /* Unique Settings */
+    easing: 'ease',
+    distance: '300px',
+    origin: 'right',
+    rotate: {
+        x: 0,
+        y: 0,
+        z: -180,
+    },
 });
+}
